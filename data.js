@@ -4,30 +4,30 @@ const notifications = [
         name: 'Mark Webber',
         action: 'reacted to your recent post!',
         postName: 'My first turnament today!',
-        isRead: false,
-        time: '1m ago'
+        isRead: true,
+        time: '1 m ago'
     },
     {
         image: 'avatar-angela-gray.webp',
         name: 'Angela Gray',
         action: 'followed you',
-        isRead: false,
-        time: '5m ago'
+        isRead: true,
+        time: '5 m ago'
     },
     {
         image: 'avatar-jacob-thompson.webp',
         name: 'Jacob Thompson',
         action: 'has joined your group',
         group: 'Chess Club',
-        isRead: false,
-        time: '1m ago'
+        isRead: true,
+        time: '1 m ago'
     },
     {
         image: 'avatar-rizky-hasanuddin.webp',
         name: 'Rizky Hasanuddin',
         action: 'sent you a fried request',
         isRead: false,
-        time: '5day ago',
+        time: '5 day ago',
         message: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
     },
     {
@@ -36,7 +36,7 @@ const notifications = [
         action: 'commented on your picture',
         isRead: false,
         picture: 'image-chess.webp',
-        time: '1week ago'
+        time: '1 week ago'
     },
     {
         image: 'avatar-nathan-peterson.webp',
@@ -44,7 +44,7 @@ const notifications = [
         action: 'reacted to your recent post',
         postName: '5 end-game strategies to increase your win rate',
         isRead: false,
-        time: '2weeks ago'
+        time: '2 weeks ago'
     },
     {
         image: 'avatar-anna-kim.webp',
@@ -52,7 +52,7 @@ const notifications = [
         action: 'left the group',
         group: 'Chess Club',
         isRead: false,
-        time: '1m ago'
+        time: '2 weeks ago'
     },
 ]
 

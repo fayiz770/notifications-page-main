@@ -16,7 +16,7 @@
     --grey-blue: #939CAD;
     --light-grey-blue: #E5EFFA;
     --very-light-grey-blue: #DDE7EE;
-    --snow: #F7FAFD;
+    --snow: #eef1f4;
     --white: #FFFFFF;
 }
 
@@ -68,14 +68,14 @@ body {
 
 /* Notifications Cards */
 
-.notifications {
+.notifications-container {
     display: grid;
     gap: .75em;
 }
 
 
 .card {
-    background: var(--snow);
+    border-radius: 1em;
     padding: 1em;
     display: flex;
     gap: 1em;
@@ -84,6 +84,27 @@ body {
 .card > img {
     width: 50px;
     height: 50px;
+}
+
+.details-container {
+    display: grid;
+    gap: 1em;
+}
+
+.group {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.message {
+    padding: 1em;
+    border: 2px solid var(--dark-grey-blue);
+    border-radius: 1em;
+    color: var(--dark-grey-blue);
+}
+
+.message:hover {
+    background: var(--light-grey-blue);
 }
 
 .inline-elements > * {
@@ -102,6 +123,14 @@ body {
     color: var(--dark-grey-blue);
 }
 
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    color: var(--grey-blue);
+}
+
 
 .spot {
     padding: .1em;
@@ -110,4 +139,32 @@ body {
     width: 10px;
     height: 10px;
     display: inline-block;
+}
+
+.hover:hover {
+    cursor: pointer;
+    color: var(--blue);
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+
+@media (min-width: 700px){
+    body {
+        background: var(--very-light-grey-blue);
+        display: grid;
+        margin: auto;
+    }
+
+    .container {
+        border-radius: 1em;
+        padding: 4em 4em;
+        background: white;
+        width: 50%;
+        display: grid;
+        margin: auto;
+        margin-top: 4em;
+    }
 }
