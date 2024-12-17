@@ -1,7 +1,7 @@
 # Frontend Mentor - Notifications page
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
-
+# [Live demo](https://hamacompany.netlify.app/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
